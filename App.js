@@ -6,20 +6,20 @@ import { Main } from './components/Main';
 
 
 export default function App() {
- 
+
 
   return (
-    <ScrollView style={styles.container}>
-      <View style={{ marginBottom: 20, alignItems: 'center',backgroundColor:'gray', borderRadius:10 }}>
+    <View style={styles.container}>
+      <View style={{ marginBottom: 20, alignItems: 'center', backgroundColor: 'gray', borderRadius: 10 }}>
         <Logo />
       </View>
       <Text style={styles.title}>Personajes de Rick and Morty</Text>
       <Main />
 
       <StatusBar style="auto" />
-    </ScrollView>
+    </View>
 
-   
+
 
   );
 }
